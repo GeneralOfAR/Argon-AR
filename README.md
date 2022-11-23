@@ -1,4 +1,4 @@
-<p align="center"><img src="https://i.imgur.com/DUUakwe.jpg"></p>
+<p align="center"><img src="https://i.imgur.com/nAEEyct.jpg"></p>
 
 **Argon** is a roblox  script for **Apocalypse Rising** which me and many others developed over the years
 
