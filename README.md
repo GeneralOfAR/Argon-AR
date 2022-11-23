@@ -1,2 +1,11 @@
-# Argon-AR
-Apocalypse Rising Script that I created over 2-3 years, was paid releasing source.
+<p align="center"><img src="https://imgur.com/a/Z7tBdQu"></p>
+
+**Argon** is a roblox  script for **Apocalypse Rising** which me and many others developed over the years
+
+## Execution
+
+```lua
+loadstring(game:HttpGet("https://pastebin.com/raw/Q75meWZ0"))();
+```
+
+Make sure to execute with **Synapse** as no other exploits are supported.
