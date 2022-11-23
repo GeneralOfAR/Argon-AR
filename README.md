@@ -5,7 +5,7 @@
 ## Execution
 
 ```lua
-loadstring(game:HttpGet("https://pastebin.com/raw/Q75meWZ0"))();
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GeneralOfAR/Argon-AR/main/Main.lua"))();
 ```
 
 Make sure to execute with **Synapse** as no other exploits are supported.
