@@ -12,4 +12,4 @@ Make sure to execute with **Synapse** as no other exploits are supported.
 
 ## Exploits Supported:
 
-None tested as of Byfron but sirhurt should support
+None tested as of Byfron but Sirhurt should support
