@@ -1853,12 +1853,8 @@ zKillsButt.MouseButton1Click:Connect(function()
 end)
 
 SpecAllButt.MouseButton1Click:Connect(function()
-	getrenv()["_G"].SendMessage("Everyone is spectating you, reset to make it go away.","Green")
-	for c,d in pairs(game:GetService('Players'):GetChildren()) do
-		if d.Character then
-			_G.fireserver('ChangeParent', d.Character:FindFirstChild('Humanoid'), game:GetService('Players').LocalPlayer.Character)
-		end
-	end
+	getrenv()["_G"].SendMessage("Disabled due to abuse.","Red")
+	-- if you want this feature so badly just look at the updates tab of github and use the old version
 end)
 
 SkinsButt.MouseButton1Click:Connect(function()
