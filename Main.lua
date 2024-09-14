@@ -669,7 +669,7 @@ end)
 ImportButt.MouseButton1Down:Connect(function()
 	if BaseSelectedTxt.Text == "Devils Church" then
 		
-getrenv()["_G"].SendMessage("This base is disabled bc of paste limit lol","Green")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GeneralOfAR/Argon-Bases/main/DevilsChurch.txt"))();
 
 	end
 	if BaseSelectedTxt.Text == "Circle Base" then
