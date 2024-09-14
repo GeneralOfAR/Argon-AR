@@ -667,26 +667,21 @@ end)
 
 
 ImportButt.MouseButton1Down:Connect(function()
-	if BaseSelectedTxt.Text == "Devils Church" then
-		
-loadstring(game:HttpGet("https://raw.githubusercontent.com/GeneralOfAR/Argon-Bases/main/DevilsChurch.txt"))();
-
-	end
-	if BaseSelectedTxt.Text == "Circle Base" then
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/GeneralOfAR/Argon-Bases/main/Circle%20Base.txt"))();	end
-	if BaseSelectedTxt.Text == "Sky Base" then
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/GeneralOfAR/Argon-Bases/main/Rauls%20Sky%20Base.txt"))();
-	end
-	if BaseSelectedTxt.Text == "Octageon Base" then
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/GeneralOfAR/Argon-Bases/main/Octa%20Base.txt"))();	end
-	if BaseSelectedTxt.Text == "Fortress" then
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/GeneralOfAR/Argon-Bases/main/Fortress.txt"))();
-	end
-	if BaseSelectedTxt.Text == "Smol Base" then
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/GeneralOfAR/Argon-Bases/main/Small%20Base.txt"))();
-	end
-	if BaseSelectedTxt.Text == "Dmitris Base" then
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/GeneralOfAR/Argon-Bases/main/Dimitris%20Base.txt"))();		end
+  if BaseSelectedTxt.Text == "Devils Church" then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/GeneralOfAR/Argon-Bases/main/DevilsChurch.txt"))()
+  elseif BaseSelectedTxt.Text == "Circle Base" then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/GeneralOfAR/Argon-Bases/main/Circle%20Base.txt"))()
+  elseif BaseSelectedTxt.Text == "Sky Base" then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/GeneralOfAR/Argon-Bases/main/Rauls%20Sky%20Base.txt"))()
+  elseif BaseSelectedTxt.Text == "Octageon Base" then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/GeneralOfAR/Argon-Bases/main/Octa%20Base.txt"))()
+  elseif BaseSelectedTxt.Text == "Fortress" then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/GeneralOfAR/Argon-Bases/main/Fortress.txt"))()
+  elseif BaseSelectedTxt.Text == "Smol Base" then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/GeneralOfAR/Argon-Bases/main/Small%20Base.txt"))()
+  elseif BaseSelectedTxt.Text == "Dmitris Base" then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/GeneralOfAR/Argon-Bases/main/Dimitris%20Base.txt"))()
+  end
 end)
 
 playerl = game.Players.LocalPlayer.Name
