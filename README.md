@@ -8,8 +8,6 @@
 loadstring(game:HttpGet("https://raw.githubusercontent.com/GeneralOfAR/Argon-AR/main/Main.lua"))();
 ```
 
-Make sure to execute with **Synapse** as no other exploits are supported.
-
 ## Exploits Supported:
 
-None tested as of Byfron but Sirhurt should support
+None tested as of Byfron, find your own good luck
