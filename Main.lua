@@ -1,4 +1,4 @@
-loadstring(game:HttpGet("https://pastebin.com/raw/758C0ZN7"))();
+loadstring(game:HttpGet("https://raw.githubusercontent.com/GeneralOfAR/Argon-AR/main/UI"))();
 
 game:GetService("CoreGui").ArgonGui.MainFrame.Visible = false
 
@@ -673,20 +673,20 @@ getrenv()["_G"].SendMessage("This base is disabled bc of paste limit lol","Green
 
 	end
 	if BaseSelectedTxt.Text == "Circle Base" then
-		getrenv()["_G"].SendMessage("this is removed","White")	end
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/GeneralOfAR/Argon-Bases/main/Circle%20Base.txt"))();	end
 	if BaseSelectedTxt.Text == "Sky Base" then
-		getrenv()["_G"].SendMessage("this base is removed","White")
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/GeneralOfAR/Argon-Bases/main/Rauls%20Sky%20Base.txt"))();
 	end
 	if BaseSelectedTxt.Text == "Octageon Base" then
-		loadstring(game:HttpGet("https://pastebin.com/raw/AXpB2eXb"))();	end
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/GeneralOfAR/Argon-Bases/main/Octa%20Base.txt"))();	end
 	if BaseSelectedTxt.Text == "Fortress" then
-		loadstring(game:HttpGet("https://pastebin.com/raw/C3wN3S1T"))();
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/GeneralOfAR/Argon-Bases/main/Fortress.txt"))();
 	end
 	if BaseSelectedTxt.Text == "Smol Base" then
-		loadstring(game:HttpGet("https://pastebin.com/raw/05haDVvp"))();
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/GeneralOfAR/Argon-Bases/main/Small%20Base.txt"))();
 	end
 	if BaseSelectedTxt.Text == "Dmitris Base" then
-		loadstring(game:HttpGet("https://pastebin.com/raw/yrDKFv2a"))();		end
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/GeneralOfAR/Argon-Bases/main/Dimitris%20Base.txt"))();		end
 end)
 
 playerl = game.Players.LocalPlayer.Name
