@@ -3,6 +3,8 @@
 **Argon** is a roblox  script for **Apocalypse Rising** which me and many others developed over the years
 
 ## Devs:
+**Owner** - GeneralOfAR (me)
+
 **Co-Owner** - ItsDarkNiight
 
 **UI** - Imagine
