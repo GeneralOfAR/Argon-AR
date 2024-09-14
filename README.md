@@ -3,9 +3,9 @@
 **Argon** is a roblox  script for **Apocalypse Rising** which me and many others developed over the years
 
 ## Devs:
-Co-Owner - ItsDarkNiight
-UI - Imagine
-Whitelist - CypherM
+**Co-Owner** - ItsDarkNiight
+**UI** - Imagine
+**Whitelist** - CypherM
 
 
 ## Execution
