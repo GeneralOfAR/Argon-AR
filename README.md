@@ -21,4 +21,4 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/GeneralOfAR/Argon-AR/
 
 ## Exploits Supported:
 
-None tested as of Byfron, find your own good luck
+Sirhurt, use a alt you might get tempbanned lol
