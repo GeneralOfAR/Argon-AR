@@ -9,11 +9,17 @@ Running = nil
 local Script = nil
 if _G.Commands == nil then
 	_G.Commands = {}
-	meta = getrawmetatable(game)
-	nc = meta.__namecall
-	make_writeable(meta)
+	nc = getnamecallmethod
+for i, v in pairs(game:GetDescendants()) do
+    pcall(function()
+        setscriptable(getrawmetatable(v), true)
+    end)
+end
+pcall(function()
+    setscriptable(getrawmetatable(game), true)
+end)
 
-	meta.__namecall = newcclosure(function(rc, ...)
+	getnamecallmethod = newcclosure(function(rc, ...)
 		args = {...}
 		if Running == nil and tostring(rc) == "RenderSteppedAfterCamera" and getnamecallmethod() == "Fire" then
 			Running = true
